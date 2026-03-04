@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speedy Taxi Service</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Speedy Taxi Service</h1>
+            <nav>
+                <ul>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#booking">Book a Ride</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="services" class="section">
+            <div class="container">
+                <h2>Our Services</h2>
+                <p>At Speedy Taxi Service, we offer reliable and fast taxi services across the city, ensuring that you reach your destination on time, every time.</p>
+                <ul>
+                    <li>City Rides</li>
+                    <li>Airport Transfers</li>
+                    <li>Corporate Services</li>
+                    <li>24/7 Availability</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <address>
+                    <p>Email: support@speedytaxi.com</p>
+                    <p>Phone: +1 (555) 123-4567</p>
+                    <p>Address: 123 Taxi Lane, Metropolis</p>
+                </address>
+            </div>
+        </section>
+
+        <section id="booking" class="section">
+            <div class="container">
+                <h2>Book a Ride</h2>
+                <form id="booking-form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" required>
+
+                    <label for="pickup">Pickup Location:</label>
+                    <input type="text" id="pickup" name="pickup" required>
+
+                    <label for="destination">Destination:</label>
+                    <input type="text" id="destination" name="destination" required>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Speedy Taxi Service. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
